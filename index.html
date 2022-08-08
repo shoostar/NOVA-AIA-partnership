@@ -85,11 +85,18 @@ hr {
   margin-top: 30px;
 }
 section {
+  margin: 0 auto;
+}
+.intro {
+  background: rgb(151,163,174);
+  padding: 40px 0;
+}
+article {
   width: 1200px;
   margin: 0 auto;
 }
 .ads {
-  padding: 100px 0;
+  padding: 0 0 100px 0;
   margin-bottom: 30px;
 }
 .ads article:not(:last-child) {
@@ -122,14 +129,19 @@ section {
 <body>
 <header>
   <section>
-    <img class="logo" src="NOVA_ADS_LOGO.svg" alt="image" width="100%" />
+    <article>
+      <img class="logo" src="NOVA_ADS_LOGO.svg" alt="image" width="100%" />
+    </article>
   </section>
 </header>
 
-<section class="ads">
-  <h1>COMPREHENSIVE AD SLICK<br />NOVA Home Loans & Arizona Interscholastic Association - 2022</h1>
-  <hr />
+<section class="intro">
+  <article>
+    <h1>COMPREHENSIVE AD SLICK<br />NOVA Home Loans & Arizona Interscholastic Association - 2022</h1>
+  </article>
+</section>
 
+<section class="ads">
   <article class="webads-display">
     <h2>Web Ads&mdash;BASKETBALL</h2>
     <figure>
@@ -285,14 +297,16 @@ section {
 </section>
 <footer>
   <section>
-    <small>
-      NOVA® Financial & Investment Corporation | Corporate Office: 6245 E. Broadway Blvd. Ste. 400 | Tucson, AZ 85711<br />
-      Copyright 2021 | NOVA Financial & Investment Corporation, DBA | 800.955.9125 | Corporate Office: 6245 E. Broadway Blvd, Ste 400, Tucson, AZ 85711<br />
-      Nova Home Loans NMLS 3087| BK 0902429| Equal Housing Opportunity | NOVA® Fair Lending Statement<br />
-      <span class="state">CA</span>Licensed by the Department of Business Oversight under the California Residential Mortgage Lending Act#4131230. Also licensed by the CA-DBO Under the CFL#6036566.<br />
-      Loans made or arranged pursuant to a California Financing Law License.<br />
-      <span class="state">TX</span>Texas Licensing Disclosure<br />
-      <span class="state">PA</span>Licensed by the Pennsylvania Department of Banking and Securities | NOVA® Home Loans is Licensed in multiple states, for licensing information, go to www.nmlsconsumeraccess.org</small>
+    <article>
+      <small>
+        NOVA® Financial & Investment Corporation | Corporate Office: 6245 E. Broadway Blvd. Ste. 400 | Tucson, AZ 85711<br />
+        Copyright 2021 | NOVA Financial & Investment Corporation, DBA | 800.955.9125 | Corporate Office: 6245 E. Broadway Blvd, Ste 400, Tucson, AZ 85711<br />
+        Nova Home Loans NMLS 3087| BK 0902429| Equal Housing Opportunity | NOVA® Fair Lending Statement<br />
+        <span class="state">CA</span>Licensed by the Department of Business Oversight under the California Residential Mortgage Lending Act#4131230. Also licensed by the CA-DBO Under the CFL#6036566.<br />
+        Loans made or arranged pursuant to a California Financing Law License.<br />
+        <span class="state">TX</span>Texas Licensing Disclosure<br />
+        <span class="state">PA</span>Licensed by the Pennsylvania Department of Banking and Securities | NOVA® Home Loans is Licensed in multiple states, for licensing information, go to www.nmlsconsumeraccess.org</small>
+    </article>
   </section>
 </footer>
 </body>
